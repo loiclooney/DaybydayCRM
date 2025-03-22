@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,700);@charset "UTF-8";
 
 body {
-  background-color: #e7e8ec !important;
+  background-color: rgb(231, 232, 236) !important;
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -874,7 +874,7 @@ body {
 }
 
 .siderbar-top {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.07);
 }
 
 .sidebar-arrow {
@@ -1483,22 +1483,22 @@ table.dataTable.cell-border tbody tr:first-child td {
 
 table.dataTable.stripe tbody tr.odd,
 table.dataTable.display tbody tr.odd {
-  background-color: #f9f9f9;
+  background-color: rgb(249.0075, 249.0075, 249.0075);
 }
 
 table.dataTable.stripe tbody tr.odd.selected,
 table.dataTable.display tbody tr.odd.selected {
-  background-color: #acbad4;
+  background-color: rgb(171.864, 185.535, 211.9005);
 }
 
 table.dataTable.hover tbody tr:hover,
 table.dataTable.display tbody tr:hover {
-  background-color: #f6f6f6;
+  background-color: rgb(245.82, 245.82, 245.82);
 }
 
 table.dataTable.hover tbody tr:hover.selected,
 table.dataTable.display tbody tr:hover.selected {
-  background-color: #aab7d1;
+  background-color: rgb(169.664, 183.16, 209.188);
 }
 
 table.dataTable.order-column tbody tr > .sorting_1,
@@ -1507,7 +1507,7 @@ table.dataTable.order-column tbody tr > .sorting_3,
 table.dataTable.display tbody tr > .sorting_1,
 table.dataTable.display tbody tr > .sorting_2,
 table.dataTable.display tbody tr > .sorting_3 {
-  background-color: #fafafa;
+  background-color: rgb(249.9, 249.9, 249.9);
 }
 
 table.dataTable.order-column tbody tr.selected > .sorting_1,
@@ -1516,97 +1516,97 @@ table.dataTable.order-column tbody tr.selected > .sorting_3,
 table.dataTable.display tbody tr.selected > .sorting_1,
 table.dataTable.display tbody tr.selected > .sorting_2,
 table.dataTable.display tbody tr.selected > .sorting_3 {
-  background-color: #acbad5;
+  background-color: rgb(172.48, 186.2, 212.66);
 }
 
 table.dataTable.display tbody tr.odd > .sorting_1,
 table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
-  background-color: #f1f1f1;
+  background-color: rgb(241.23, 241.23, 241.23);
 }
 
 table.dataTable.display tbody tr.odd > .sorting_2,
 table.dataTable.order-column.stripe tbody tr.odd > .sorting_2 {
-  background-color: #f3f3f3;
+  background-color: rgb(243.015, 243.015, 243.015);
 }
 
 table.dataTable.display tbody tr.odd > .sorting_3,
 table.dataTable.order-column.stripe tbody tr.odd > .sorting_3 {
-  background-color: whitesmoke;
+  background-color: rgb(245.055, 245.055, 245.055);
 }
 
 table.dataTable.display tbody tr.odd.selected > .sorting_1,
 table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_1 {
-  background-color: #a6b4cd;
+  background-color: rgb(166.496, 179.74, 205.282);
 }
 
 table.dataTable.display tbody tr.odd.selected > .sorting_2,
 table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_2 {
-  background-color: #a8b5cf;
+  background-color: rgb(167.728, 181.07, 206.801);
 }
 
 table.dataTable.display tbody tr.odd.selected > .sorting_3,
 table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_3 {
-  background-color: #a9b7d1;
+  background-color: rgb(169.136, 182.59, 208.537);
 }
 
 table.dataTable.display tbody tr.even > .sorting_1,
 table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
-  background-color: #fafafa;
+  background-color: rgb(249.9, 249.9, 249.9);
 }
 
 table.dataTable.display tbody tr.even > .sorting_2,
 table.dataTable.order-column.stripe tbody tr.even > .sorting_2 {
-  background-color: #fcfcfc;
+  background-color: rgb(251.94, 251.94, 251.94);
 }
 
 table.dataTable.display tbody tr.even > .sorting_3,
 table.dataTable.order-column.stripe tbody tr.even > .sorting_3 {
-  background-color: #fefefe;
+  background-color: rgb(253.98, 253.98, 253.98);
 }
 
 table.dataTable.display tbody tr.even.selected > .sorting_1,
 table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_1 {
-  background-color: #acbad5;
+  background-color: rgb(172.48, 186.2, 212.66);
 }
 
 table.dataTable.display tbody tr.even.selected > .sorting_2,
 table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_2 {
-  background-color: #aebcd6;
+  background-color: rgb(173.888, 187.72, 214.396);
 }
 
 table.dataTable.display tbody tr.even.selected > .sorting_3,
 table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_3 {
-  background-color: #afbdd8;
+  background-color: rgb(175.296, 189.24, 216.132);
 }
 
 table.dataTable.display tbody tr:hover > .sorting_1,
 table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
-  background-color: #eaeaea;
+  background-color: rgb(234.09, 234.09, 234.09);
 }
 
 table.dataTable.display tbody tr:hover > .sorting_2,
 table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
-  background-color: #ececec;
+  background-color: rgb(235.875, 235.875, 235.875);
 }
 
 table.dataTable.display tbody tr:hover > .sorting_3,
 table.dataTable.order-column.hover tbody tr:hover > .sorting_3 {
-  background-color: #efefef;
+  background-color: rgb(238.935, 238.935, 238.935);
 }
 
 table.dataTable.display tbody tr:hover.selected > .sorting_1,
 table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_1 {
-  background-color: #a2aec7;
+  background-color: rgb(161.568, 174.42, 199.206);
 }
 
 table.dataTable.display tbody tr:hover.selected > .sorting_2,
 table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_2 {
-  background-color: #a3b0c9;
+  background-color: rgb(162.8, 175.75, 200.725);
 }
 
 table.dataTable.display tbody tr:hover.selected > .sorting_3,
 table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_3 {
-  background-color: #a5b2cb;
+  background-color: rgb(164.912, 178.03, 203.329);
 }
 
 table.dataTable.nowrap th,
@@ -1779,7 +1779,7 @@ table.dataTable td {
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: #333333 !important;
-  border: 1px solid #979797;
+  border: 1px solid rgb(151.15, 151.15, 151.15);
   background-color: white;
   /* Chrome,Safari4+ */
   /* Chrome10+,Safari5.1+ */
@@ -1803,25 +1803,25 @@ table.dataTable td {
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
   color: white !important;
   border: 1px solid #111111;
-  background-color: #585858;
+  background-color: rgb(88.4, 88.4, 88.4);
   /* Chrome,Safari4+ */
   /* Chrome10+,Safari5.1+ */
   /* FF3.6+ */
   /* IE10+ */
   /* Opera 11.10+ */
-  background: linear-gradient(to bottom, #585858 0%, #111111 100%);
+  background: linear-gradient(to bottom, rgb(88.4, 88.4, 88.4) 0%, #111111 100%);
   /* W3C */
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
   outline: none;
-  background-color: #2b2b2b;
+  background-color: rgb(42.5, 42.5, 42.5);
   /* Chrome,Safari4+ */
   /* Chrome10+,Safari5.1+ */
   /* FF3.6+ */
   /* IE10+ */
   /* Opera 11.10+ */
-  background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);
+  background: linear-gradient(to bottom, rgb(42.5, 42.5, 42.5) 0%, rgb(11.9, 11.9, 11.9) 100%);
   /* W3C */
   box-shadow: inset 0 0 3px #111;
 }
@@ -1945,7 +1945,7 @@ table.dataTable td {
 }
 
 .tablet__shadow {
-  box-shadow: 0px 2px 18px -4px #4f4f4f;
+  box-shadow: 0px 2px 18px -4px rgb(79, 79, 79);
 }
 
 .tablet__head {

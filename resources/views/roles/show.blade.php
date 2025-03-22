@@ -42,17 +42,17 @@
 	@endforeach
 	<div class="col-xs-12">
 		{!! Form::submit( __('Update Role') , ['class' => 'btn btn-primary']) !!}
-	{!! Form::close(); !!}
+	{!! Form::close() !!}
 	
 	@if($role->name == "owner" || $role->name == "administrator")
 	@else
 		{!! Form::open([
             'method' => 'DELETE',
             'route' => ['roles.destroy', $role->id]
-        ]); !!}
+        ]) !!}
                         
-                            {!! Form::submit(__('Delete'), ['class' => 'btn btn-danger', 'onclick' => 'return confirm("Are you sure?")']); !!}
-        {!! Form::close(); !!}
+                            {!! Form::submit(__('Delete'), ['class' => 'btn btn-danger', 'onclick' => 'return confirm("Are you sure?")']) !!}
+        {!! Form::close() !!}
     @endif
 	</div>
 		<div class="col-sm-12">

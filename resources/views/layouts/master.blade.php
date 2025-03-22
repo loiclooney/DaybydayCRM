@@ -170,6 +170,11 @@
                     <a href="{{ route('integrations.index')}}"
                        class="list-group-item childlist"> <i
                                 class="bullet-point"><span></span></i> {{ __('Integrations') }}</a>
+                    <!-- ➕ Nouveau lien pour Database Settings -->
+                    <a href="{{ route('settings.database') }}"
+                        class="list-group-item childlist"><i
+                                class="bullet-point"><span></span></i>{{ __('Database Management') }}
+                 </a>
                 </div>
             @endif
         </div>

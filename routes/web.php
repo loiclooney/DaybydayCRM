@@ -132,6 +132,16 @@ Route::group(['middleware' => ['auth']], function () {
         Route::post('/first-steps', 'SettingsController@updateFirstStep')->name('settings.update.first_step');
         Route::get('/business-hours', 'SettingsController@businessHours')->name('settings.business_hours');
         Route::get('/date-formats', 'SettingsController@dateFormats')->name('settings.date_formats');
+        // ➕ Nouvelle route pour Database Settings
+        Route::get('/database', 'DatabaseCleanupController@showDatabaseSettings')->name('settings.database');
+        Route::post('/database/reset', 'DatabaseCleanupController@deleteAllData')->name('settings.database.reset');
+        Route::get('/database/tables', 'DatabaseCleanupController@getTables')->name('settings.database.tables');
+        Route::post('database/import', 'DatabaseCleanupController@importCsv')->name('settings.database.import');
+        Route::get('/database/export-csv', 'DatabaseCleanupController@exportCsv')->name('settings.database.export_csv');
+        Route::get('/database/export-excel', 'DatabaseCleanupController@exportExcel')->name('settings.database.export_excel');
+        
+
+
     });
 
     /**
